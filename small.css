@@ -15,6 +15,9 @@
     .topLevel .topSearch {
        display:none;
     }
+.emailContent img {
+    width: 100%;
+}
     .topLogo {
         width: 40%;
         height: 80px;
