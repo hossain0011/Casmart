@@ -1,4 +1,6 @@
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 768px) {
+
     .topLevel {
         width: 100%;
         height: 70px;
@@ -14,12 +16,12 @@
        display:none;
     }
     .topLogo {
-        width: 33%;
+        width: 30%;
         float: left;
+        margin-top: 15px;
     }
     .topLogoItem {
-        width: 70%;
-        margin-top: 17px;
+        width: 60%;
         margin-inline: auto;
     }
     .topLogoItem img {
@@ -43,9 +45,8 @@
     .smallIcon {
         width: 35px;
         height: 33px;
-      
         float: right;
-        margin-top: 10px;
+        margin-top: 21px;
         margin-right: 10px;
     }
     
@@ -195,7 +196,7 @@
         .serviceItem {
             width: 100%;
             float: left;
-            max-width: 250px;
+            max-width: 268px;
         }
         .services {
             width: 100%;
@@ -320,15 +321,16 @@
             padding: 33px;
         }
         .latestItems {
-            width: 102%;
-            display: flex;
-            gap: 25px;
-            flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+        width: 101%;
         }
         
         .latestItem {
-            width: 100%;
-            float: left;
+            width: calc(50% - 15px);
         }
         .latestImg img {
             width: 100%;
@@ -409,8 +411,7 @@
             color: white;
             border: black;
         }
-        .container {
-        }
+      
         
         .productBtn:hover {
             background: black;
@@ -419,8 +420,8 @@
 
 
         .container {
-        max-width: 550px;
-        margin: auto;
+            max-width: 700px;
+            margin:auto;
         }
         
         .productBtn:hover {
@@ -573,11 +574,25 @@
         }
         .overPictuceContent {
             position: absolute;
-            width: 90%;
+            width: 70%;
             top: 71px;
             left: 50%;
             transform: translate(-50%,-50%);
-            background: orange;
+           
+        }
+        .off {
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(52, 207, 122);
+            padding: 5px 10px;
+        }
+        .new{
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(135, 91, 255);
+            padding: 5px 10px;
         }
         .overcontent {
             width: 100%;
@@ -588,16 +603,16 @@
             padding-left: 0;
         }
         .overInput {
-            width: 100%;
+            width: 70%;
             float: left;
             height: 100%;
         }
         
         .overBtn {
-            width: 100%;
+            width: 30%;
             height: 100%;
             float: left;
-            margin-top: 20px;
+            margin-top: 0px;
         }
         
         .overInput a {
@@ -759,7 +774,7 @@
             width: 100%;
             background: white;
             float: left;
-            padding-bottom: 20px;
+            padding-bottom: 100px;
         }
         .centerFooter {
             text-align: center;
@@ -783,7 +798,7 @@
             top: 0;
             width: 100%;
             background: white;
-            z-index: 5000;
+            z-index: 1000;
           }
 
 
@@ -793,7 +808,7 @@
             background-position: st;
             background-size: cover;
             width: 100%;
-            height: 550px;
+            height: 600px;
             position: relative;
             }
             .topContent i {
@@ -850,7 +865,7 @@
                 position: absolute;
                 color: white;
                 top: -20px;
-                left: 75px;
+                left: 52px;
             }
             
             .stickyBar i.fa-solid.fa-cart-shopping {
@@ -867,7 +882,7 @@
                 position: absolute;
                 color: white;
                 top: -20px;
-                left: 74px;
+                left: 52px;
             }
             
             .stickyBar i.fa-regular.fa-heart{
@@ -917,4 +932,13 @@
 
 
 
-}
+
+
+
+    }
+
+
+
+
+
+    
