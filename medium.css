@@ -101,11 +101,7 @@
         height: 70px;
      overflow: hidden;;
     }
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
+   
     .menuList {
         margin: auto;
         text-align: center;
@@ -297,7 +293,7 @@
         top: 0;
         width: 100%;
         background-color: white;
-        z-index: 100;
+        z-index: 1000;
       }
       
       .sticky + .poster {
@@ -537,7 +533,20 @@
     .overTitle p {
         color: gray;
     }
-    
+    .off {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        background: rgb(52, 207, 122);
+        padding: 5px 10px;
+    }
+    .new{
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        background: rgb(135, 91, 255);
+        padding: 5px 10px;
+    }
     
     
     .emailContent img {
