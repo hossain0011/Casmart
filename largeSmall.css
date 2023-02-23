@@ -1,6 +1,4 @@
-
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 600px) {
     .topLevel {
         width: 100%;
         height: 70px;
@@ -16,12 +14,12 @@
        display:none;
     }
     .topLogo {
-        width: 30%;
+        width: 33%;
         float: left;
-        margin-top: 15px;
     }
     .topLogoItem {
-        width: 60%;
+        width: 70%;
+        margin-top: 17px;
         margin-inline: auto;
     }
     .topLogoItem img {
@@ -45,8 +43,9 @@
     .smallIcon {
         width: 35px;
         height: 33px;
+      
         float: right;
-        margin-top: 21px;
+        margin-top: 10px;
         margin-right: 10px;
     }
     
@@ -196,7 +195,7 @@
         .serviceItem {
             width: 100%;
             float: left;
-            max-width: 268px;
+            max-width: 250px;
         }
         .services {
             width: 100%;
@@ -321,16 +320,15 @@
             padding: 33px;
         }
         .latestItems {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: start;
-        gap: 30px;
-        width: 101%;
+            width: 102%;
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
         }
         
         .latestItem {
-            width: calc(50% - 15px);
+            width: 100%;
+            float: left;
         }
         .latestImg img {
             width: 100%;
@@ -420,8 +418,8 @@
 
 
         .container {
-            max-width: 700px;
-            margin:auto;
+        max-width: 550px;
+        margin: auto;
         }
         
         .productBtn:hover {
@@ -566,20 +564,6 @@
             float: left;
             margin-top: 100px;
         }
-        .emailContent {
-            width: 100%;
-            height: 400px;
-            position:relative;
-            background: #cfccc8;
-        }
-        .overPictuceContent {
-            position: absolute;
-            width: 70%;
-            top: 71px;
-            left: 50%;
-            transform: translate(-50%,-50%);
-           
-        }
         .off {
             position: absolute;
             top: 0;
@@ -594,6 +578,20 @@
             background: rgb(135, 91, 255);
             padding: 5px 10px;
         }
+        .emailContent {
+            width: 100%;
+            height: 400px;
+            position:relative;
+            background: #cfccc8;
+        }
+        .overPictuceContent {
+            position: absolute;
+            width: 90%;
+            top: 71px;
+            left: 50%;
+            transform: translate(-50%,-50%);
+           
+        }
         .overcontent {
             width: 100%;
             height: 60px;
@@ -603,16 +601,16 @@
             padding-left: 0;
         }
         .overInput {
-            width: 70%;
+            width: 100%;
             float: left;
             height: 100%;
         }
         
         .overBtn {
-            width: 30%;
+            width: 100%;
             height: 100%;
             float: left;
-            margin-top: 0px;
+            margin-top: 20px;
         }
         
         .overInput a {
@@ -774,7 +772,7 @@
             width: 100%;
             background: white;
             float: left;
-            padding-bottom: 100px;
+            padding-bottom: 20px;
         }
         .centerFooter {
             text-align: center;
@@ -798,7 +796,7 @@
             top: 0;
             width: 100%;
             background: white;
-            z-index: 1000;
+            z-index: 5000;
           }
 
 
@@ -808,7 +806,7 @@
             background-position: st;
             background-size: cover;
             width: 100%;
-            height: 600px;
+            height: 550px;
             position: relative;
             }
             .topContent i {
@@ -864,8 +862,8 @@
                 font-size: 10px;
                 position: absolute;
                 color: white;
-                top: -20px;
-                left: 52px;
+                left: 50%;
+                top: -100%;
             }
             
             .stickyBar i.fa-solid.fa-cart-shopping {
@@ -881,8 +879,8 @@
                 font-size: 10px;
                 position: absolute;
                 color: white;
-                top: -20px;
-                left: 52px;
+                top: -100%;
+                left: 50%;
             }
             
             .stickyBar i.fa-regular.fa-heart{
@@ -921,6 +919,9 @@
                 transform:translateX(15px) scale(var(--scale, 1));
             }
 
+            .emailContent img {
+                width: 100%;
+            }
 
 
 
@@ -931,14 +932,4 @@
 
 
 
-
-
-
-
-    }
-
-
-
-
-
-    
+}
