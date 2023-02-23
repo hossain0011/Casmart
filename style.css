@@ -572,6 +572,20 @@
         float: left;
         height: 100%;
     }
+    .off {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        background: rgb(52, 207, 122);
+        padding: 5px 10px;
+    }
+    .new{
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        background: rgb(135, 91, 255);
+        padding: 5px 10px;
+    }
     
     .overBtn {
         width: 30%;
@@ -700,9 +714,7 @@
         text-decoration: none;
         color: gray;
     }
-    .bottomFooter {
-    }
-    
+  
     .centerFooter {
         text-align: center;
     }
@@ -717,8 +729,7 @@
         color: gray;
     }
     
-    .bottomFooterItem img {
-    }
+
     .bottomFooter {
         width: 100%;
         background: white;
