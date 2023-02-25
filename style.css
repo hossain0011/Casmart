@@ -1,9 +1,9 @@
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
 
     .topLevel {
-        /* width: 100%; */
-        /* height: 70px; */
+       width: 100%; 
+       height: 90px; 
         border-bottom: 1px solid gainsboro;
     }
     .bottomContent {
@@ -92,14 +92,15 @@
     
     .sidenav {
         height: 100%;
-        width: 0;
+        width: 300px;
         position: fixed;
         z-index: 100;
         top: 0;
-        right: 0;
+        right: -310px;
         background-color: #fff;
         overflow-x: hidden;
         transition: 0.5s;
+        overflow-y: hidden;
       }
       
     
@@ -564,6 +565,20 @@
             font-size: 20px;
             margin-top: 18px;
         }
+        .off {
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(52, 207, 122);
+            padding: 5px 10px;
+        }
+        .new{
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(135, 91, 255);
+            padding: 5px 10px;
+        }
         .latestItem:hover .latestImg img {
             transform: scale(1.1);
         }
@@ -740,7 +755,7 @@ outline:none;
         }
         
         .footerItem-list {
-            width: 100%;
+            width: 90%;
             height: 100%;
             float: left;
         }
@@ -809,6 +824,7 @@ outline:none;
             width: 100%;
             background: white;
             z-index: 1000;
+            box-shadow: 0 -2px 20px hsl(0deg 0% 0% / 10%);
           }
 
 
@@ -855,6 +871,7 @@ outline:none;
                 bottom: 0;
                 z-index: 50000;
                 text-align: center;
+                box-shadow: 0 -2px 20px hsl(0deg 0% 0% / 10%);
             }
             
             .stickyBar i {
@@ -867,9 +884,9 @@ outline:none;
 
 
             .stickyBar i.fa-solid.fa-cart-shopping:after {
-                background: rgb(55, 153, 153);
+                background: rgb(121 223 223);
                 content: "3";
-                padding: 10px 12px;
+                padding: 7px 9px;
                 border-radius: 50%;
                 font-size: 10px;
                 position: absolute;
@@ -884,9 +901,9 @@ outline:none;
 
 
             .stickyBar i.fa-regular.fa-heart:after {
-                background: rgb(255, 93, 93);
+                background: hsl(0deg 0% 9%);
                 content: "2";
-                padding: 10px 12px;
+                padding: 7px 9px;
                 border-radius: 50%;
                 font-size: 10px;
                 position: absolute;
@@ -1725,7 +1742,6 @@ outline:none;
             width: 100%;
             background: white;
             float: left;
-            padding-bottom: 20px;
         }
         .centerFooter {
             text-align: center;
@@ -1750,6 +1766,7 @@ outline:none;
             width: 100%;
             background: white;
             z-index: 5000;
+            box-shadow: 0 2px 20px hsl(0deg 0% 0% / 10%);
           }
 
 
@@ -1780,7 +1797,7 @@ outline:none;
             .footerLast {
                 width: 20%;
                 float: left;
-                margin-right: 10px;
+                margin-right: 0;
             }
             
             .footerImage {
@@ -1796,7 +1813,7 @@ outline:none;
                 bottom: 0;
                 z-index: 50000;
                 text-align: center;
-                box-shadow: #f7f2f2 0px -3px 0px 0px;
+                box-shadow: 0 2px 20px hsl(0deg 0% 0% / 10%);
             }
             
             .stickyBar i {
@@ -1819,7 +1836,20 @@ outline:none;
                 left: 50%;
                 top: -100%;
             }
-            
+            .off {
+                position: absolute;
+                top: 0;
+                z-index: 10;
+                background: rgb(52, 207, 122);
+                padding: 5px 10px;
+            }
+            .new{
+                position: absolute;
+                top: 0;
+                z-index: 10;
+                background: rgb(135, 91, 255);
+                padding: 5px 10px;
+            }
             .stickyBar i.fa-solid.fa-cart-shopping {
                 position: relative;
             }
@@ -1889,7 +1919,7 @@ outline:none;
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 766px) {
 
     .topLevel {
         width: 100%;
@@ -1936,7 +1966,7 @@ outline:none;
         width: 35px;
         height: 33px;
         float: right;
-        margin-top: 21px;
+        margin-top: 14px;
         margin-right: 10px;
     }
     
@@ -1980,14 +2010,15 @@ outline:none;
     
     .sidenav {
         height: 100%;
-        width: 0;
+        width: 300px;
         position: fixed;
         z-index: 100;
+        right: -310px;
         top: 0;
-        right: 0;
         background-color: #fff;
         overflow-x: hidden;
         transition: 0.5s;
+        overflow-y: hidden;
       }
       
     
@@ -2458,9 +2489,9 @@ outline:none;
         }
         .emailContent {
             width: 100%;
-            height: 400px;
+            height: 370px;
             position:relative;
-            background: #cfccc8;
+            background: #d3d3d3;
         }
         .overPictuceContent {
             position: absolute;
@@ -2514,6 +2545,20 @@ outline:none;
             padding-top: 17px;
             margin-left: 8px;
             
+        }
+        .off {
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(52, 207, 122);
+            padding: 5px 10px;
+        }
+        .new{
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(135, 91, 255);
+            padding: 5px 10px;
         }
         
         
@@ -2665,7 +2710,7 @@ outline:none;
             width: 100%;
             background: white;
             float: left;
-            padding-bottom: 100px;
+            padding-bottom: 50px;
         }
         .centerFooter {
             text-align: center;
@@ -2690,7 +2735,7 @@ outline:none;
             width: 100%;
             background: white;
             z-index: 10000;
-            padding: 20px 0px;
+            box-shadow: 0 2px 20px hsl(0deg 0% 0% / 10%);
           }
 
 
@@ -2721,23 +2766,23 @@ outline:none;
             .footerLast {
                 width: 20%;
                 float: left;
-                margin-right: 10px;
+                margin-right: 0;
             }
             
             .footerImage {
-                width: 50%;
+                width: 33%;
                 float: left;
                 margin: 0;
             }
             .stickyBar {
                 width: 100%;
-                height: 60px;
+                height: 70px;
                 background: white;
                 position: fixed;
                 bottom: 0;
                 z-index: 50000;
                 text-align: center;
-                box-shadow: orange 1px 1px 1px;
+                box-shadow: 0 2px 20px hsl(0deg 0% 0% / 10%);
             }
             
             .stickyBar i {
@@ -2757,8 +2802,8 @@ outline:none;
                 font-size: 10px;
                 position: absolute;
                 color: white;
-                top: -20px;
-                left: 52px;
+                top: -100%;
+                left: 50%;
             }
             
             .stickyBar i.fa-solid.fa-cart-shopping {
@@ -2774,8 +2819,8 @@ outline:none;
                 font-size: 10px;
                 position: absolute;
                 color: white;
-                top: -20px;
-                left: 52px;
+                top: -100%;
+                left: 50%;
             }
             
             .stickyBar i.fa-regular.fa-heart{
@@ -2815,7 +2860,20 @@ outline:none;
             }
 
 
-
+            .off {
+                position: absolute;
+                top: 0;
+                z-index: 10;
+                background: rgb(52, 207, 122);
+                padding: 5px 10px;
+            }
+            .new{
+                position: absolute;
+                top: 0;
+                z-index: 10;
+                background: rgb(135, 91, 255);
+                padding: 5px 10px;
+            }
 
 
 
@@ -2841,7 +2899,7 @@ outline:none;
 
     .topLevel {
         width: 100%;
-        height: 80px;
+        height: 60px;
         border-bottom: 1px solid gainsboro;
     }
     div#mySidenav {
@@ -2866,6 +2924,7 @@ outline:none;
         width: 30%;
         height: 80px;
         float: left;
+        display: block;
     }
     .topLogo{
         width: 40%;
@@ -2876,12 +2935,13 @@ outline:none;
         width: 20%;
         height: 75px;
         float: right;
+        display: block;
     }
     .search {
         width: 100%;
         height: 50px;
         margin: auto;
-        margin-top: 13px;
+        margin-top: 5px;
         border: 1px solid #dbdbdb;
         border-radius: 8px;
         background: white;
@@ -2908,7 +2968,7 @@ outline:none;
     }
     .topLogoItem {
         width: 40%;
-        margin-top: 18px;
+        margin-top: 5px;
         margin-inline: auto;
     }
     
@@ -3021,6 +3081,7 @@ outline:none;
     .service {
         width: 100%;
         height: 100px;
+        float: left;
     }
     .serviceItem {
         width: 25%;
@@ -3117,8 +3178,9 @@ outline:none;
     
     #navbar {
         overflow: hidden;
-       
         z-index: 1000;
+        display: block;
+        margin-top: 80px;
       }
       
     
@@ -3131,6 +3193,7 @@ outline:none;
         width: 100%;
         background-color: white;
         z-index: 1000;
+        padding: 10px 0px;
       }
       
       .sticky + .poster {
@@ -3139,12 +3202,12 @@ outline:none;
       .bottomGrid {
         width: 100%;
         display: flex;
-        gap: 20px;
+        gap: 38px;
         margin-top: 20px;
     }
     
     .bottomItem {
-        width: 25%;
+        width: 22%;
         float: left;
         position: relative
     }
@@ -3201,7 +3264,20 @@ outline:none;
         margin: auto;
     }
     
-    
+    .off {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        background: rgb(52, 207, 122);
+        padding: 5px 10px;
+    }
+    .new{
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        background: rgb(135, 91, 255);
+        padding: 5px 10px;
+    }
     .listProduct {
         margin-top: 40px;
         margin-bottom: 71px;
@@ -3293,6 +3369,7 @@ outline:none;
         width: 100%;
         display: flex;
         gap: 25px;
+        flex-wrap: nowrap;
     }
     
     .latestItem {
@@ -3331,9 +3408,9 @@ outline:none;
     
     .emailContent {
         width: 100%;
-        height: 400px;
+        height: 370px;
         position:relative;
-        background: #cfccc8;
+        background: #dbdbdb;
     }
     .overTitle {
         position: absolute;
@@ -3420,6 +3497,12 @@ outline:none;
         float: left;
         
     }
+
+.overBtn {}
+
+.overBtn i {
+    margin-left: 11px;
+}
     
     .overInput a {
         font-size: 19px;
@@ -3483,6 +3566,9 @@ outline:none;
         float: left;
         margin-top: 100px;
         padding-bottom: 100px;
+    }
+    .smallIcon {
+        display: none;
     }
     
     .footer {
@@ -3649,15 +3735,15 @@ outline:none;
     }
     .hidden {
         height: 50px;
-        width: 85%;
-        background: white;
+        width: 230px;
+        background: #db5c5c;
         position: absolute;
         bottom: 0;
         margin: auto;
         text-align: center;
         justify-content: center;
         left: 50%;
-        transform: translate(-50% , 100%);
+        transform: translate(-50% , 0%);
         transition: 0.2s;
         border-radius: 5px;
     }
@@ -3670,28 +3756,30 @@ outline:none;
     
     
     .eye i {
-        font-size: 16px;
-        padding-top: 17px;
+        font-size: 20px;
+        padding-top: 15px;
     }
     
     
     .eye {
-        width: 20%;
+        width: 40px;
+        background: white;
         height: 100%;
         float: left;
         border: 1px solid white;
     }
     
     .cart {
-        width: 56%;
+        width: 144px;
         height: 100%;
         float: left;
-        border: 1px solid black;
         background: black;
+        border: 1px solid black;
     }
     
     .wish {
-        width: 21%;
+        background: white;
+        width: 40px;
         height: 100%;
         float: right;
         border-radius: 0px 5px 5px 0px;
@@ -3716,7 +3804,7 @@ outline:none;
     .cart a {
         text-decoration: none;
         color: white;
-        font-size: 14px;
+        font-size: 19px;
     }
     .cart:hover {
         background: white;
@@ -3815,7 +3903,7 @@ outline:none;
         width: 100%;
         height: 50px;
         margin: auto;
-        margin-top: 13px;
+        margin-top: 5px;
         border: 1px solid #dbdbdb;
         border-radius: 8px;
         background: white;
@@ -3840,8 +3928,8 @@ outline:none;
         color: #5a5a5a;
     }
     .topLogoItem {
-        width: 40%;
-        margin-top: 18px;
+        width: 30%;
+        margin-top: 5px;
         margin-inline: auto;
     }
     
@@ -3928,12 +4016,14 @@ outline:none;
         }
         h3.subTitle {
         font-size: 29px;
+        color: #171717;
     }
     
     h3.posterTitle {
         font-size: 100px;
         font-weight: 600;
         line-height: 111px;
+        color: #171717;
     }
     
     button.postarButton {
@@ -3943,7 +4033,7 @@ outline:none;
         border-radius: 9px;
         font-size: 15px;
         font-weight: bold;
-        background: black;
+        background: #171717;
         color: white;
         transition: 0.5s;
         margin-top: 30px;
@@ -3960,6 +4050,7 @@ outline:none;
     .service {
         width: 100%;
         height: 100px;
+        float: left;
     }
     .serviceItem {
         width: 25%;
@@ -4059,8 +4150,7 @@ outline:none;
         overflow: hidden;
         z-index: 1000;
         width: 100%;
-        float: left;
-        margin-top: 80px;
+        margin-top: 100px;
         background: white;
       }
       
@@ -4076,6 +4166,9 @@ outline:none;
         z-index: 100;
         float: left;
         border-bottom: 1px solid gainsboro;
+        height: 60px;
+        box-shadow: 0 2px 20px hsl(0deg 0% 0% / 10%);
+        padding: 14px 0px;
       }
       
       .sticky + .poster {
@@ -4084,12 +4177,12 @@ outline:none;
       .bottomGrid {
         width: 100%;
         display: flex;
-        gap: 20px;
+        gap: 32px;
         margin-top: 20px;
     }
     
     .bottomItem {
-        width: 25%;
+        width: 23%;
         float: left;
         position: relative
     }
@@ -4238,10 +4331,11 @@ outline:none;
         width: 100%;
         display: flex;
         gap: 25px;
+        flex-wrap: nowrap;
     }
     
     .latestItem {
-        width: 33%;
+        width: 40%;
         float: left;
     }
     
@@ -4592,7 +4686,7 @@ outline:none;
     }
     .hidden {
         height: 50px;
-        width: 85%;
+        max-width: 230px;
         background: white;
         position: absolute;
         bottom: 0;
@@ -4600,7 +4694,7 @@ outline:none;
         text-align: center;
         justify-content: center;
         left: 50%;
-        transform: translate(-50% , 100%);
+        transform: translate(-50% , 0%);
         transition: 0.2s;
         border-radius: 5px;
     }
@@ -4619,20 +4713,24 @@ outline:none;
     
     
     .eye {
-        width: 20%;
+        width: 40px;
+        background: white;
         height: 100%;
         float: left;
+        border: 1px solid white;
     }
     
     .cart {
-        width: 59%;
+        width: 144px;
         height: 100%;
         float: left;
         background: black;
+        border: 1px solid black;
     }
     
     .wish {
-        width: 19%;
+        background: white;
+        width: 40px;
         height: 100%;
         float: right;
         border-radius: 0px 5px 5px 0px;
@@ -4703,4 +4801,7 @@ outline:none;
     
     
     }
+    
+    
+
     
