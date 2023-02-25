@@ -4137,7 +4137,8 @@ outline:none;
         overflow: hidden;
         z-index: 1000;
         display: block;
-        margin-top: 80px;
+        width: 100%;
+        margin-top: 110px;
       }
       
     
@@ -5107,7 +5108,7 @@ outline:none;
         overflow: hidden;
         z-index: 1000;
         width: 100%;
-        margin-top: 100px;
+        margin-top: 110px;
         background: white;
       }
       
@@ -5123,7 +5124,7 @@ outline:none;
         z-index: 100;
         float: left;
         border-bottom: 1px solid gainsboro;
-        height: 60px;
+        height: 70px;
         box-shadow: 0 2px 20px hsl(0deg 0% 0% / 10%);
         padding: 14px 0px;
       }
