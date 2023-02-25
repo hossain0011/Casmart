@@ -28,12 +28,12 @@ function myFunctions() {
 
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "350px";
+  document.getElementById("mySidenav").style.right = "0px"
  
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0px";
+  document.getElementById("mySidenav").style.right="-310px"
   
 }
 
